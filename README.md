@@ -9,6 +9,7 @@ This repository uses the following database, which should <i>not</i> be changed.
 </table>
 
 The following settings may be changed on a new branch. See below for naming and documentation conventions.
+
 | Branch           | master        |
 | ---------------- |:-------------:|
 | Rails            |               |
