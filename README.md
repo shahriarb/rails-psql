@@ -2,14 +2,11 @@
 
 <table>
   <tr>
-    <td>Database</td>
-    <td>PostgreSQL</td>
+    <td><b>Database</b></td>
+    <td></td>
   </tr>
 </table>
 
-| Database         | PostgreSQL    |
-| ---------------- |:-------------:|
-|                  |               |
 
 | Branch           | master        |
 | ---------------- |:-------------:|
@@ -23,15 +20,6 @@ Rails:: 3.2.6
 Database:: PostgreSQL
 
 <b>branch</b>::master
-Rack server:: Puma
-Manifest file:: -
-Deployment hooks:: -
-Process file:: Rack server
-
-<br/>
-<b>branch</b>::unicorn
-Rails:: 3.2.6
-Database:: PostgreSQL
 Rack server:: Puma
 Manifest file:: -
 Deployment hooks:: -
