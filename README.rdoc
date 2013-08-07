@@ -1,14 +1,16 @@
 == Contents of this Cloud 66 sample:
 
-<b>Master branch</b>::
 Rails:: 3.2.6
 Database:: PostgreSQL
+
+<b>branch</b>::master
 Rack server:: Puma
 Manifest file:: -
 Deployment hooks:: -
 Process file:: Rack server
 
-<b>unicorn branch</b>::
+<br/>
+<b>branch</b>::unicorn
 Rails:: 3.2.6
 Database:: PostgreSQL
 Rack server:: Puma
