@@ -1,6 +1,6 @@
 ## Contents of this Cloud 66 sample:
 
-| Database         |               |
+| Database         | PostgreSQL    |
 | ---------------- |:-------------:|
 
 | Branch           | master        |
