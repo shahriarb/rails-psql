@@ -1,6 +1,7 @@
 ## Contents of this Cloud 66 sample:
 
-Database:: PostgreSQL
+| Database         |               |
+| ---------------- |:-------------:|
 
 | Branch           | master        |
 | ---------------- |:-------------:|
@@ -11,7 +12,7 @@ Database:: PostgreSQL
 | Process file     |               |
 
 Rails:: 3.2.6
-
+Database:: PostgreSQL
 
 <b>branch</b>::master
 Rack server:: Puma
