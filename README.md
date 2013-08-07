@@ -1,7 +1,17 @@
-== Contents of this Cloud 66 sample:
+## Contents of this Cloud 66 sample:
+
+Database:: PostgreSQL
+
+| Branch           | master        |
+| ---------------- |:-------------:|
+| Rails            |               |
+| Rack server      |               |
+| Manifest file    |               |
+| Deployment hooks |               |
+| Process file     |               |
 
 Rails:: 3.2.6
-Database:: PostgreSQL
+
 
 <b>branch</b>::master
 Rack server:: Puma
