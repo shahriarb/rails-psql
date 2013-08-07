@@ -1,5 +1,12 @@
 ## Contents of this Cloud 66 sample:
 
+<table>
+  <tr>
+    <td>Database</td>
+    <td>PostgreSQL</td>
+  </tr>
+</table>
+
 | Database         | PostgreSQL    |
 | ---------------- |:-------------:|
 |                  |               |
