@@ -10,7 +10,7 @@ production:
             use_asset_pipeline: true
     postgresql:
         server:
-            #unique_name: db
+            unique_name: db
             #address: 162.243.17.47
             server: external
             #username: root
