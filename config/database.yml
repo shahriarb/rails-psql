@@ -56,4 +56,6 @@ production:
   database: postgres_production
   pool: 5
   host: 162.243.17.47
+  username: uol0so
+  password: ivxLbeQmKBBlN2a
   port: 5432
