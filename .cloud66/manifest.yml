@@ -11,14 +11,14 @@ production:
     postgresql:
         server:
             unique_name: db
-            #address: 162.243.17.47
+            address: 162.243.17.47
             server: external
-            #username: root
-            #ssh_key_name: test
-#            extra_packages:
-#                - chrony
-#        configuration:
-#            version: 9.2.3
+            username: root
+            ssh_key_name: test
+            extra_packages:
+                - chrony
+        configuration:
+            version: 9.2.3
 development:
     rails:
         configuration:
