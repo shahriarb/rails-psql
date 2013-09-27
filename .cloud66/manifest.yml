@@ -9,7 +9,8 @@ production:
         configuration:
             use_asset_pipeline: true
     postgresql:
-        server: external
+        server:
+             unique_name: db
 development:
     rails:
         configuration:
