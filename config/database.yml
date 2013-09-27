@@ -55,7 +55,7 @@ production:
   encoding: unicode
   database: postgres_production
   pool: 5
-  host: 162.243.17.47
+  host: 198.199.117.182
   username: uol0so
   password: ivxLbeQmKBBlN2a
   port: 5432
