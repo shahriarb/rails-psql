@@ -15,10 +15,10 @@ production:
             server: external
             username: root
             ssh_key_name: test
-            extra_packages:
-                - chrony
-        configuration:
-            version: 9.2.3
+#            extra_packages:
+#                - chrony
+#        configuration:
+#            version: 9.2.3
 development:
     rails:
         configuration:
