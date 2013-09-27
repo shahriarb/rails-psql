@@ -2,7 +2,7 @@ production:
     rails:
         server:
             unique_name: web
-            address: 162.243.17.7
+            #address: 162.243.17.7
             extra_packages:
                 - atop
                 - chrony
