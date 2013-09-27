@@ -1,0 +1,31 @@
+production:
+    rails:
+        server:
+            unique_name: web
+            address: 162.243.17.7
+            extra_packages:
+                - atop
+                - chrony
+        configuration:
+            use_asset_pipeline: true
+    postgresql:
+        server:
+            unique_name: db
+            address: 162.243.17.47
+            server: external
+            username: root
+            ssh_key_name: test
+            extra_packages:
+                - chrony
+        configuration:
+            version: 9.2.3
+
+development:
+    rails:
+        configuration:
+            use_asset_pipeline: true
+
+staging:
+    rails:
+        configuration:
+            use_asset_pipeline: true
