@@ -55,5 +55,5 @@ production:
   encoding: unicode
   database: postgres_production
   pool: 5
-  host: localhost
+  host: 162.243.17.47
   port: 5432
