@@ -53,5 +53,5 @@ test:
 production:
   adapter: postgresql
   database: <%= ENV['POSTGRESQL_DATABASE'] || 'octopus_production' %>
-  username: <%= ENV['POSGRESQL_USERNAME'] || `whoami`.chomp %>
+  username: <%= ENV['POSGRESQL_USERNAME'] %>
   password: <%= ENV['POSTGRESQL_PASSWORD'] || nil %>
