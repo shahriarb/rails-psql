@@ -1,15 +1,16 @@
 production: 
-  postgresql: 
-    server: 
-      region: us-east-1
-      size: t1.micro
-      type: BYOC
-      unique_name: backend
-      vendor: aws
   rails: 
     server: 
       region: us-east-1
-      size: t1.micro
+      size: m1.large
       type: BYOC
       unique_name: frontend
+      vendor: aws  
+  postgresql: 
+    server: 
+      region: us-east-1
+      size: c3.xlarge
+      type: BYOC
+      unique_name: backend
       vendor: aws
+
