@@ -53,6 +53,7 @@ test:
 production:
   adapter: postgresql
   encoding: latin1
+  template: template0
   database: postgres_production
   pool: 5
   host: localhost
