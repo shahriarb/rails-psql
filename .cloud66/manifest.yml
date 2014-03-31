@@ -1,0 +1,18 @@
+development:
+    rails:
+        server:
+            unique_name: rk_dev
+            type: BYOC
+            vendor: digitalocean
+            region: 5
+            size: 66
+        configuration:
+            ruby_version: 2.1.1
+            asset_pipeline_precompile: false
+            do_initial_db_schema_load: true
+            nginx:
+              passenger: false
+              allow_ssl: true
+              perfect_forward_secrecy: true
+    postgresql:
+        shared_server: rk_dev
