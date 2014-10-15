@@ -17,7 +17,8 @@ development:
   encoding: unicode
   database: postgres_development
   pool: 5
-  username: <%= if ENV['DEVELOP_CI'] then 'fbiadmin' else 'tja' end %>
+  username: bla
+  #<%= if ENV['DEVELOP_CI'] then 'fbiadmin' else 'tja' end %>
   password: jill
   host: localhost
   port: 5432
