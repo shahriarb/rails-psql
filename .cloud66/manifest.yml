@@ -1,21 +1,10 @@
 production:
-    rails:
-        server:
-            unique_name: web
-            #address: 162.243.17.7
-            extra_packages:
-                - atop
-                - chrony
-        configuration:
-            use_asset_pipeline: true
-    postgresql:
-        server:
-             unique_name: db
-development:
-    rails:
-        configuration:
-            use_asset_pipeline: true
-staging:
-    rails:
-        configuration:
-            use_asset_pipeline: true
+  rails:
+    servers:
+      server:
+        unique_name: web1
+        vendor: digitalocean
+        region: 4
+        size: 62
+  postgresql:
+    server: external
