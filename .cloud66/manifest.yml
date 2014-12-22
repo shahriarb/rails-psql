@@ -1,4 +1,7 @@
 staging:  
   postgresql:
+    servers:
+      server:
+        unique_name: postgres
     configuration:
       version: 9.4
