@@ -1,0 +1,4 @@
+staging:  
+  postgresql:
+    configuration:
+      version: 9.4
