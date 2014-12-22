@@ -4,4 +4,4 @@ staging:
       server:
         unique_name: postgres
     configuration:
-      version: 9.4
+      version: 9.4.0
