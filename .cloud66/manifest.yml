@@ -1,7 +1,10 @@
-staging:  
-  postgresql:
-    servers:
-      server:
-        unique_name: postgres
-    configuration:
-      version: 9.4.0
+production:
+    rails:
+        server:
+            unique_name: app
+    postgresql:
+        server:
+            same_as: app
+        configuration:
+            version: 9.4.0
+            postgis: true
