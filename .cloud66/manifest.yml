@@ -1,0 +1,6 @@
+production:
+    postgresql:
+        servers:
+            server:
+                unique_name: db
+                root_disk_size: 100
