@@ -2,5 +2,5 @@ SampleRails326Postgres::Application.routes.draw do
   
   root :to => 'hill#visit'
 
-  # Test 3
+  # Test 4
 end
