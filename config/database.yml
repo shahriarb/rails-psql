@@ -52,7 +52,7 @@ test:
 
 production:
     adapter: postgresql
-    username: <%= ENV['MYSQL_USERNAME'] %>
-    password: <%= ENV['MYSQL_PASSWORD'] %>
-    database: <%= ENV['MYSQL_DATABASE'] %>
-    host: <%= ENV['MYSQL_ADDRESS'] %>
+    username: <%= ENV['POSTGRESQL_USERNAME'] %>
+    password: <%= ENV['POSTGRESQL_PASSWORD'] %>
+    database: <%= ENV['POSTGRESQL_DATABASE'] %>
+    host: <%= ENV['POSTGRESQL_ADDRESS'] %>
