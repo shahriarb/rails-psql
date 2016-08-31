@@ -4,3 +4,5 @@ SampleRails326Postgres::Application.routes.draw do
 
   # Test stage
 end
+
+# Test 2
