@@ -1,9 +1,8 @@
 # AWS Sydney 4GB Combined Server - default manifest if no stack-specific one
 production:
-  postgresql:
+  rails:
     configuration:
-      version: 9.5.3
-      postgis: false
+      do_initial_db_schema_load: true
       vpc_id: default
     server:
       unique_name: combined
@@ -11,11 +10,10 @@ production:
       key_name: default
       region: us-east-1
       size: t2.medium
-      root_disk_size: 20
-  rails:
+  postgresql:
     configuration:
-      do_initial_db_schema_load: true
-      vpc_id: default
+      version: 9.5.3
+      postgis: false
     server:
       same_as: combined
   redis:
