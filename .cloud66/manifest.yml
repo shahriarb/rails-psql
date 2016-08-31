@@ -7,7 +7,7 @@ production:
     server:
       unique_name: combined
       vendor: aws
-      key_name: default
+      key_name: Default
       region: us-east-1
       size: t2.medium
   postgresql:
