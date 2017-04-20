@@ -1,0 +1,4 @@
+production:
+    postgresql:
+        configuration:
+            version: 8.4
